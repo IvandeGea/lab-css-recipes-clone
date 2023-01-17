@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     color:rgb(81, 78, 78)
@@ -5,8 +11,9 @@ body{
 
 h1{
   color: white;
-  font-size: 55px;
+  font-size: 60px;
   text-align: center;
+  font-weight: 200;
 }
 
 .header { 
@@ -39,7 +46,9 @@ section {
     text-justify: center ; 
 }
 #intro img{
-    width: 300px;}
+    width: 300px;
+    margin-top: 20px ;
+}
 
 hr{
     margin: 40px auto 30px auto;
@@ -49,7 +58,10 @@ hr{
 h2{ 
     font-size: 20px ;
     font-weight:100 ;
+    margin-bottom: 40px;
+    color: rgb(50, 50, 50);
 }
+
 
 #ingredients ul > li {
         list-style-type: none;
