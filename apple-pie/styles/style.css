@@ -73,9 +73,11 @@ h2{
 
 ol {
     list-style-type: none; 
+
   }
-  
-  ol li:before {
-    content: counter(number) ")"; 
-    counter-increment: number+1;
+  ol > li {
+   counter-increment:listcounter;
   }
+  ol > li:before {
+    content: counter(listcounter) ")"; 
+}
